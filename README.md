@@ -11,12 +11,7 @@ A Retrieval-Augmented Generation (RAG) chatbot that provides information using l
 ### Setup on Linux/macOS
 1. Clone or download this repository
 2. Open a terminal in the repository directory
-3. Run the setup script:
-   ```
-   chmod +x setup_mchatbot.sh
-   ./setup_mchatbot.sh
-   ```
-4. Download the LLM model file (Qwen2-1.5B-Instruct.Q8_0.gguf) and place it in the `models/model_files` directory
+3. Download the LLM model file (Qwen2-1.5B-Instruct.Q8_0.gguf) and place it in the `models/model_files` directory
    - You can download it from [https://huggingface.co/TheBloke/Qwen2-1.5B-Instruct-GGUF](https://huggingface.co/TheBloke/Qwen2-1.5B-Instruct-GGUF)
 
 ### Setup on Windows
@@ -67,8 +62,7 @@ If you prefer to use Conda for environment management:
 ## Running the Application
 
 1. Activate the virtual environment if not already activated:
-   - On Linux/macOS: `source mchatbot/bin/activate`
-   - On Windows: `mchatbot\Scripts\activate.bat`
+
 2. Run the application:
    ```
    python app.py
